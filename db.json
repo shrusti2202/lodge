@@ -1,0 +1,362 @@
+{
+  "Categories": [
+    {
+      "id": "1",
+      "cat_name": "Bridal  Chokers",
+      "cat_images": "https://img.freepik.com/free-photo/gold-necklace-with-word-love-it_1340-42879.jpg?size=626&ext=jpg&ga=GA1.2.394245931.1708071990&semt=sph",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "cat_name": "Floral Jewellery Designs",
+      "cat_images": "https://img.freepik.com/premium-vector/digital-textile-design-patren_698757-410.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=ais",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "cat_name": "Wedding Chura ",
+      "cat_images": "https://img.freepik.com/premium-photo/indian-traditional-wedding-jewelry-bangles_548644-664.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=sph",
+      "status": "Available"
+    },
+    {
+      "id": "4",
+      "cat_name": "Magalsutra ",
+      "cat_images": "data:image/jpeg;base64,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",
+      "status": "Available"
+    },
+    {
+      "id": "1708151743324",
+      "cat_name": "Ring",
+      "cat_images": "https://img.freepik.com/free-psd/wedding-ring-box-isolated-transparent-background_191095-23187.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=sph"
+    },
+    {
+      "id": "1708152163586",
+      "cat_name": "Bridal Chuda",
+      "cat_images": "https://img.freepik.com/premium-photo/kerala-traditional-jewelry-product-photography_928503-697.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=sph"
+    },
+    {
+      "id": "1708152280697",
+      "cat_name": "Ear-Rings",
+      "cat_images": "https://img.freepik.com/free-photo/portrait-young-woman-with-earrings-with-gems-isolated_132075-10060.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=sph"
+    },
+    {
+      "id": "1708152471012",
+      "cat_name": "Pendent ",
+      "cat_images": "https://img.freepik.com/free-photo/charming-model-with-dark-hair-shows-rich-golden-earrings-necklace-ring_8353-5040.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=sph"
+    },
+    {
+      "id": "1708152662667",
+      "cat_name": "Chain",
+      "cat_images": "https://img.freepik.com/free-photo/abstract-gold-chain-jewellery-presentation_23-2149599059.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=sph"
+    },
+    {
+      "id": "1708188476328",
+      "cat_name": "Bracelet",
+      "cat_images": "https://img.freepik.com/premium-photo/womens-gold-bracelet-with-round-gems-black-background_529197-718.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=sph"
+    },
+    {
+      "id": "1708261200395",
+      "cat_name": "Neckless ",
+      "cat_images": "https://img.freepik.com/premium-photo/necklace-earrings-ring-with-butterfly-design_1001743-12817.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=sph"
+    },
+    {
+      "id": "1708339864539",
+      "cat_name": "Bangles ",
+      "cat_images": "https://img.freepik.com/premium-photo/gold-bangles-generated-by-ai_1059430-42364.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=ais"
+    }
+  ],
+  "employee": [
+    {
+      "id": "1",
+      "name": "Patel shrusti",
+      "email": "shrustiogmail.com",
+      "password": "12345",
+      "phone": "8745213690",
+      "images": "admin/assets/img/profile-img.png",
+      "status": "unblock"
+    },
+    {
+      "id": "2",
+      "name": "Nia saikh",
+      "email": "nia@gmail.com",
+      "password": " 67890",
+      "phone": "8745213690",
+      "images": "admin/assets/img/profile-img.png",
+      "status": "unblock"
+    },
+    {
+      "id": "3",
+      "name": "Jiya Sharma ",
+      "email": "Jiya@gmail.com",
+      "password": "09876",
+      "phone": "8745213694",
+      "images": "admin/assets/img/profile-img.png",
+      "status": "unblock"
+    },
+    {
+      "id": "4",
+      "name": "Sunny saikh",
+      "email": "sunny@gmail.com",
+      "password": "54321",
+      "phone": "8965231475",
+      "images": "admin/assets/img/profile-img.png",
+      "status": "unblock"
+    },
+    {
+      "id": "1708189320925",
+      "name": "manisha patel",
+      "email": "mainsha@gmail.com",
+      "password": "541236",
+      "phone": "9632587415",
+      "images": "data:image/png;base64,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"
+    },
+    {
+      "id": "1708189483761",
+      "name": "svara amin",
+      "email": "amin@gmail.com",
+      "password": "456788",
+      "phone": "7896541239",
+      "images": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDRANDQ0QDw0NDQ8ODw0NDQ8NDw0QFRIWFhUYFxUYHSggGBomGxUVITEhJSkrLi4uGB8zODMsNygtLisBCgoKDg0OGRAQGi0dHyUtLS4rLS0xLy0tLisrLS0rLS0rMC0zLS0tLS0tMDUtLS0tLSstLS0wKy0rKy0tMC8rLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAQcEBQYCAwj/xABLEAACAQMABQcHBwkECwAAAAAAAQIDBBEFBhIhMQcTQVFhcYEiUlSRkqHSFBYjQpOxwSQyQ1NygqLR4QgzsvEVJSY0YmNzg7PT8P/EABoBAQADAQEBAAAAAAAAAAAAAAABAgQDBQb/xAAoEQEBAAIBAwMEAQUAAAAAAAAAAQIRAwQTMRIhQQVRYXHBBjJCseH/2gAMAwEAAhEDEQA/ALwJAAgkgASCABIIJAAAAAAAAAAgkAAAAAAAAAAAAAAAAAAABBIAAAACABJAAAAAADxXrQpwlUqTjCEE5SnOShGKXFtvckB7BXGsPLRom1bhQdS9qRyvyeKVLP8A1JYTXbFM4e/5fruWfk2jqFPqderUr/4dgC/wfm9cu2l/1Nj3cxW/9pvNE8v08pXujouP1p2tZxa7oTzn2kBegOX1U1/0ZpTEbW4SrtZdtXXNV13Re6X7rZ1IEAkACCQBAJAAgkAQCQAAAAAAACGAAAAAAACJPCb6lkDndc9dbLRFJVLuo3UqZ5q3pJTrVccWl0LteF47j82696+3ml6zdWbp2sZfRWdOT5qK6HLz59r8MGp1r09V0jfVr2tJt1ZvYi3/AHVJPyILqSWPe+k1AAAAAAB6pzcZKUW4yi1JSi8OLTymn0MvHkp5W5SnT0dpeptOTUKF9N788FCs+nqU/X1lGAD9xElYcheuU7+ynZXLlK40fGCVWW/nqEsqGX50dlp54rZe95LPAAAAQSABBIAAAAAAAAAAgAAAAAAA5Dlb0nO10De1aUnGpKnCjGSeGudqRpyafQ9mUjryv+XZf7PXHZWtv/NED826C0RXvrmna20NqrVlhZ3RhHplJ9EUt7NvrRqJpDRzlKtRdSguFzQzUpY65dMP3kixeQbQ0Y29xpCUfpKtT5NTk0vJpwSlPD7ZNewWscM+b05aaePgmWO6/HoP07pjULRV23KtZQjUeW6lDNvNt8W9jCk+9M5W65FrGTbo3dzT7JqlVS90SZzY1W9PnPCjAXQuRGlnfpKpjqVtFP8AxmwsuRnR8GnWuLmtj6qlTpRffiLfvLd7BHYz+yhzIu7KrR2VWo1KTqQU4KrCVNzg8pSWVvW57z9O6F1P0bZNStrKlGa4VZp1qqfZOeWvA5jlu0Mq+jFdxX0tjVjJvGW6NRqE17Tg/BlZzS3S2XBZjtsP7OvNvQ9ZxpxjVV9UhVml5VVKnCUMvqW00l39ZapT39myf5Dex6Fdwfrpr+RcJ2ZwAACCQAAAAAAAAAAAEAAAAAAAAHEctVFz1cvUlvirefhG4pt+7J25zXKRDb0Ne0Yx2qla2qU6cfOnstr7hbok25jkrs3R0HZxfGpCdZ/9ypKUf4XE6wxtG2kaFvRt47o0KNOlFdkIqP4GSYMru2vUwmsZAAFVgAADC01YK5tLi1lwuKFWl3OUWk/XhmaCZ7Is3HAf2bqTjZX2Vh/LIRafQ409/wB5cBw3Jho9Wv8ApOi9znpa4uIdH0U4w2fVh+s7k3y7eXZq6AASgAAAAAAAAAAAAAQAAAAAAAAc9rTUanRXQtqXjlHQmr0/YOtTTgs1KeWl5yfFe5FM5vFfjsmUtYYPFGWYrKw8LKe5p9J7ML0oAAJAAAADCHw0TPF88fWjJPwin96OoNFq/YyUpXFRNOeVCL3PDeWzem3ilmLz+ay5ewADo5AAAAAAAAAAAAACAAAAAAAkAQABq9J08TUvOXvRhm5vaO3BpcVvXeaUx82Osm/p8t46+yQAcncAAA+1nT2qiXQt78D4m00ZRxHafGXDuOnHjvJx5s/TizUADa88AAAAAAAAAAAAAQSQSAIJAAAAAAAAAEM5+4rL5RVprc4tY7U4pv3s385JLL6DlNMW0lUdxHg2m8cYP+Ry5pvF24MtZMsGJbX0Zbp4jL3P+RloyN+wAx7i8hDp2pdSf3kD6Vq6hs54ykkl47zpYrG7qOMs7edeptyeIxazLu6EdhRqbSz09KNfDjqMXUZbsj6AA7M4CCQAIJAAgkAAAAIJAgkgkAAAAAAAGn0lrNZ2+VOspTX6Ol9JLPU8bl4tEyb8It03B8bu7p0YOpWqQp048Z1JqEV4sr7WDlCqc21aUuabaSq1XGcl3QxjPiyvr6+rXE+cuK06s+upJyx3Lgl3F5x35Vuc+F7TuFUSlFpwaUotPKaaymeGjkOTnS/O27tZv6S2/MzxlRb3ep7u5xOvKWaulpdzbR6T0dsZnTXkdMfM/oa5N9D951po9J6P2M1Ka8jpj5n9DPycfzGvi5d+1a7afW/WZej7F1Xl7oLjLr7ENH2LqvL3U0976+xHQ04KKUYrCSwkivHx796nl5fT7TyinBRSjFYS3JI+tObi8r/M8Gg120v8ls5bDxWr5pU8cY5XlS8F72jVJ8Mlvy6uxv6NeO3QqwqRTw3TnGey+p44MyT852txUpTVSjUnTmuE6cnCS8Ud5q3ygXEYuF3H5RstYqJxp1EsdKSxL3F7x34Umc+VoA0WjtbbKvhc7zU39Suub/i/N95vE871vTKWWeVpZUgAhIAAAAAAACCSCQAAAGl1g1joWaxLy6zWY0YtZ75P6qPOtenVZ0Mxw69XMaUXwXXJ9i3eLRVVarKc5TnJynN7UpSeXJnXj4/V71zzz17RtdMayXV02p1Nim/0NLMY47emXiacA0SSeHG3bD0m90V2t+pf1NebmrSjL85Z/AwLy3jDGG8voe/cRYmV9tA6TlaXVO4WcReKkV9am90l6t/ekXTSqRlGM4NSjOKlGS4Si1lP1FDFl8nGl+dt5Wk39Jb74Z4ypN/g93c0ceSfLphfh2BqdYtNRtaW7Eq001Tg+H7Uuxe82+xJp7CTkotpSeIt43ZfRvKn0nUrTr1JXGee2mpp7tlroS6Ei/TcM5MvfxGD6p1uXT8cmPm/P2/67PVPTyrRVvVwq0V5LSUVVj2JbtpdXj1nSFQ05uMlKLcZRaaknhprgy09D1K1S1o1q8VGdSGXjp6m10ZWHjtL9VwTC+rHxXL6T12XPLx5+9nz+Pz+WYVBrlpf5XeScXmjRzSpdTSflS8X7kjvdeNL/JbOUYPFa4zSp4e+Ka8uXgve0VKcOPH5ernfgMzRj8qS60n6n/U+VpRjNtSbWFlJdJsaVCMPzVv6+LO8jlX0NlorTlzatczVeznfSn5dN/u9Hhg1oJs35RtaWrutdG7xTmuauP1beY1P2X093HvOiKMTaeU8NPKa3NMsvUrWF3MHQrP8opLO1+thw2u9dPemZ+Tj17x2wz37V1AAOToAAAAAIJIJAAHxuquxSnPzKcpepNgVTrbpB3F7VlnMKcnRgujZg8P1vL8TThPr49L6wbZNTTLbsABIGouZuU23uw8Y6kjbmBpGlhqa6dz7+gikYRn6C0lK0uqdxHOISxOK+vTe6S9XvSMAFFn6JtJQlTjOm1KE4qcZrhOLWU/UVLpWvztzWqefVm0+zO73YN1qFrF/q+4t5y+ks6M6lLL3ypNPC8JPHdJHNo0dDhq5V4H9Qcu5x4fu/wABbGgKnOWNBvfmhBPvSw/eipzo7zT/AMm0FGnCWK9eVW3hh74x2m5y8IyS75I6ddjvGftn+gcmubKfef6rlNc9LK7vZyhLNGjmlR6nFPfLxeX3YNEAY5NPp69U5uLTXFM3Se7q7Oo1lhS2pZfCO/vfQbMtFaAAsBl6Jvnb3FOvH9HNOSX1o8JLxTZiAi+4vKEk0mnlNJp9aZ6NXqxW27C2k+PMQi++K2fwNoYq1QAAEEgAQSQSANfrBPZsrl9VtW9ewzYGp1rljR9y/wDkyXr3fiTPKL4VCADazB5qTxjtko+s9GJpCeFHHn59RAyzzUgpRcXwaPQA0k4uLafFPBBnaRpcJruf4GCVqz7WtxKnPai2tzjJJ42ovijfRkmk1wayjmzbaJr5i6b4x3ru/wDvvNXS56vp+7w/rfTevCcs8zz+meaO/uXUnxbhDKgs7l1vxNlpOvsQwvzp7l3dJpCeqz/xjl9D6bUvNf1P5AgZej6OZbT4R4d5kfQs23pbEVHp4vvPoAWVeYzzKS83HvR6MS1nmrU7/ueDLAAAkWtqPPOjaHZzq9VWRvTm+T+WdHxXm1aq/iz+J0pjy/urRj4iASCqyCQAIJIJAGq1ot6lWxrUqMXOpOMVGKaWfLjnj2ZNqBCql+al/wCiy+0pfEPmpf8AosvbpfEW0Dr3q59uKl+al/6LL26XxGHf6n6Rls7NnJ4zn6Sj2f8AEXMQO7TtxUdHVTSGzHNpLOFn6Sl8R7+al/6LL7Sl8RbIHep24qSeqV+007WWGsf3lL4jVy1J0nn/AHOT7eco7/4i7yReWnbijvmXpP0Kf2lH4j6W+qGlITUlZT3Peuco710/WLtIE5cpdoz4cc8bjfFUte6paTqTbVlPZW6P0lHh7R8PmVpP0Kf2lH4i8CRlzZW7qOPgw48Jhj4ijvmVpP0KX2lH4jZ0NUL+MVH5LLdx8ulvftFvEETlq3bipvmpf+iy9ul8RD1V0h6LL7Sl8RbQJ71O3FL2Wp+kozblZyScXv5yjxz+0Z/zUv8A0WXt0viLaIHdp24qb5qX/osvbpfEPmpf+iy9ul8RbRA71O3Gg1Jsa1vaOnXpunPnpyUW4vyWo79zfadAAc7d3a8mgAEJAABBJBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//2Q=="
+    },
+    {
+      "id": "1708263008639",
+      "name": "naiya thakar",
+      "email": "naiya@gmail.com",
+      "password": "1234",
+      "phone": "9874567896541",
+      "images": "data:image/png;base64,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"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "cat_id": "1",
+      "service_name": "Repairs",
+      "desc": "We perform professional repairs for your Wempe jewelry at our showrooms.",
+      "price": "5000",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-repair-890_890.jpg?w=1138&id=80f800cedb93ef825615a88eb8c89e0d&fm=webp",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "cat_id": "2",
+      "service_name": "Inspection and Cleaning",
+      "desc": "Every piece of jewelry deserves the best care. For this reason, we also offer fee-based inspection and cleaning services for jewelry not purchased from us. Our jewelry experts inspect your jewelry and then decide how best to clean it based on its material.",
+      "price": "2000",
+      "images": "https://wempe-media.com/media/image/wempe-customer-benefits-jewelry-check-cleaning-890_890.jpg?w=1138&id=657989c9751e4f61cbf730c67ae15d4e&fm=webp",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "cat_id": "3",
+      "service_name": " Ring-Size Adjustment",
+      "desc": "It may sometimes be the case that a piece of jewelry feels too tight or too loose, despite careful advice and a considered selection. For newly purchased rings, we offer you an exchange for the correct size or resize them ourselves free of charge. ",
+      "price": "100",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-ring-size-890_890.jpg?w=1138&id=447df103d992db00f3778020b737fd22&fm=webp",
+      "status": "Available"
+    },
+    {
+      "id": "4",
+      "cat_id": "4",
+      "service_name": "Chain-Length Reduction",
+      "desc": "If a new chain purchased from us should prove to be too long, we are of course happy to shorten it professionally for you free of charge. For chains, necklaces, or bracelets that are too long, we can offer you a quotation for an extension.",
+      "price": "300",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-chain-length-1600_1600.jpg?w=1138&id=a03484a5e99e80013895e53349d4f338&fm=webp",
+      "status": "Available"
+    },
+    {
+      "id": "1708192417452",
+      "cat_id": "",
+      "service_name": " Hand Engraving",
+      "desc": "Hand engravings are done at the Wempe Atelier by our experts who are specialized in this fine craft. Simple engravings are complementary.",
+      "price": "4500",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-manual-engraving-890_890.jpg?w=1138&id=818136d6d6de87c15db3a1bdb93e48fc&fm=webp"
+    },
+    {
+      "id": "1708192479249",
+      "cat_id": "",
+      "service_name": " Diamond “Implant” – Trade-in When Adjusting Brilliant-Cut Diamonds",
+      "desc": "Solitaire jewelry with brilliant-cut diamonds of 0.25 ct. or more in a white color, and for which a Wempe certificate and international certificate are available, can be traded in when looking to purchase jewelry with a larger stone.",
+      "price": "6000",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-growing-diamonds-890_890.jpg?w=1138&id=cfac9a6c0c10dce07b1c8a4faa57ce7b&fm=webp"
+    },
+    {
+      "id": "1708192648298",
+      "cat_id": "",
+      "service_name": " Custom-made jewelry and jewelry redesign",
+      "desc": "We are always pleased to advise you when you own gold jewelry that no longer fits or is in keeping with the times. Together, we can develop new ideas. Our master goldsmiths and their highly qualified teams can produce individual pieces of jewelry based entirely on your wishes at the Wempe Atelier.",
+      "price": "As per your requirment",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-remodeling-890_890.jpg?w=1138&id=9f65441075116f8118ec43255d000045&fm=webp"
+    },
+    {
+      "id": "1708192746929",
+      "cat_id": "",
+      "service_name": "Replacement Value and Appraisals for Wempe Jewelry",
+      "desc": "Our experienced experts can determine the replacement value of jewelry that you purchased from us. Their professional opinion is a good basis for your insurer to make decisions on. If you require an appraisal, this is issued solely by independent experts. A fee is payable.",
+      "price": "As per your requirment",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-appraisal-890_890.jpg?w=1138&id=314211d5444927533d0f4bf552c0f76a&fm=webp"
+    },
+    {
+      "id": "1708262497677",
+      "cat_id": "",
+      "service_name": "VALUATIONS",
+      "desc": "We offer professional valuations for jewellery items including diamonds, gemstones and semi precious gemstones.  Get in touch if you need help for buying and selling jewellery, or for insurance or probate purposes.",
+      "price": "As per your requirement ",
+      "images": "https://www.serenajewellery.com/cdn/shop/files/Serena-Jewellery-Cambridge-Valuations.jpg?v=1629126036&width=900"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Juli varma",
+      "email": "juli@gmail.com",
+      "contact": "9874563216",
+      "password": "js@123",
+      "confrim_password": "js@123",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "name": "Ram vyas",
+      "email": "rv@gmail.com",
+      "contact": "9632547813",
+      "password": "rv@123",
+      "confrim_password": "js@123",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "name": "ravi vyas",
+      "email": "rv@gmail.com",
+      "contact": "7896523415",
+      "confrim_password": "js@123",
+      "password": "rv@123",
+      "status": "Available"
+    },
+    {
+      "id": "4",
+      "name": "Nila panchal",
+      "email": "np@gmail.com",
+      "contact": "8965321475",
+      "confrim_password": "js@123",
+      "password": "tp@123",
+      "status": "Available"
+    },
+    {
+      "id": "1708196840644",
+      "name": "patel shrusti",
+      "email": "patel@gmail.com",
+      "password": "2202",
+      "contact": "98799917604",
+      "confrim_password": "2202"
+    },
+    {
+      "id": "1708196990466",
+      "name": "jagu parmar",
+      "email": "jagu@gmail.com",
+      "password": "jagu@123",
+      "contact": "8754123697",
+      "confrim_password": "services"
+    },
+    {
+      "id": "1708263355808",
+      "name": "simran  vrama",
+      "email": "simran@gmail.com",
+      "password": "000000000",
+      "contact": "8521479635",
+      "confrim_password": "0000"
+    }
+  ],
+  "Contact": [
+    {
+      "id": "1",
+      "name": "Nayan rajput",
+      "email": "nayann@gmail.com",
+      "number": "9874563215",
+      "comment": "comment",
+      "status": "unblock"
+    },
+    {
+      "id": "2",
+      "name": "Rahi sharma",
+      "email": "rahi@gmail.com",
+      "number": "8756932149",
+      "comment": "comment",
+      "status": "unblock"
+    },
+    {
+      "id": "3",
+      "name": "Ronak sharma",
+      "email": "ronak@gmail.com",
+      "number": "7541236394",
+      "comment": "comment",
+      "status": "unblock"
+    },
+    {
+      "id": "4",
+      "name": "Harsh hirani",
+      "email": "harsha@gmail.com",
+      "number": "8521479631",
+      "comment": "comment",
+      "status": "unblock"
+    },
+    {
+      "id": "1708194054622",
+      "name": "ravi shah",
+      "email": "ravi@gmail.com",
+      "number": "965231478",
+      "comment": "hello "
+    },
+    {
+      "id": "1708194212701",
+      "name": "prachi shah",
+      "email": "prachi@gmail.com",
+      "number": "8745213690",
+      "comment": "namaste"
+    },
+    {
+      "id": "1708197076136",
+      "name": "darshan raval",
+      "email": "darshan@gmail.com",
+      "number": "9925173455",
+      "comment": "hello"
+    },
+    {
+      "id": "1708263154398",
+      "name": "dhara jha",
+      "email": "dhara@gmail.com",
+      "number": "6352417897",
+      "comment": "good aftrnood"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "1",
+      "name": "riya",
+      "email": "rp1@gmail.com",
+      "feedback": "Good",
+      "status": "done"
+    },
+    {
+      "id": "2",
+      "name": "tiya",
+      "email": "tp1@gmail.com",
+      "feedback": "Perfect",
+      "status": "done"
+    },
+    {
+      "id": "3",
+      "name": "Tina patel",
+      "email": "tp1@gmail.com",
+      "feedback": "Good",
+      "status": "done"
+    },
+    {
+      "id": "4",
+      "name": "Rina rajan",
+      "email": "rr@gmail.com",
+      "feedback": "Best",
+      "status": "done"
+    }
+  ]
+}
