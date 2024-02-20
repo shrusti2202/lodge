@@ -24,7 +24,7 @@ function Manage_categories() {
                 <div className="col-md-12 m-1">
                     <div className="panel panel-default">
                     <div className="panel-heading" style={{fontSize:"large",fontFamily:"bold" }}>
-                            Manage_categories
+                            Manage_categories...
                         </div>
                         <div className="panel-body">
                             <div className="table-responsive">
