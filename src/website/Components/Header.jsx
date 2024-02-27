@@ -30,10 +30,13 @@ function Header() {
                                         <Link className="nav-link" to="/jewellery">Jewellery </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/jewellery">services </Link>
+                                        <Link className="nav-link" to="/services">services </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/contact">Contact us</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/profile">My Profile</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/login">Login</Link>

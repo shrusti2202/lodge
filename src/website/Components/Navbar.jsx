@@ -1,9 +1,18 @@
 import React, { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { toast } from 'react-toastify';
 
 function Navbar() {
   // const [openMenu, setOpenMenu] = useState(false)
+  const redirect = useNavigate();
 
+  // Delete session
+  const logout = () => {
+      localStorage.removeItem('userid');
+      localStorage.removeItem('uname');
+      toast.success('Logout Success');
+      redirect('/')
+  }
   return (
     <div>
       <div className="container-fluid hero_area_nav" style={{ backgroundImage: 'hero-bg.1.png', height: '60px' }}>
@@ -30,13 +39,44 @@ function Navbar() {
                   <Link className="nav-link" to="/jewellery">Jewellery </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/jewellery">Services </Link>
+                  <Link className="nav-link" to="/services">Services </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/contact">Contact us</Link>
+                  {(
+                        () => {
+                            //  Use  session
+                            if (localStorage.getItem('userid')) {
+                                return (
+                                        <NavLink to="/profile" className="nav-item nav-link">Hi .. {localStorage.getItem('uname')}</NavLink>
+                                )
+                            }
+                        }
+                    )()}
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/login">Login</Link>
+                  <Link className="nav-link" to="/profile">My Profile</Link>
+                </li>
+                <li className="nav-item">
+                {(
+                    () => {
+                        if (localStorage.getItem('userid')) {
+                            return (
+                                <>
+                                    <a href="javascript:void(0)" onClick={logout} className="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Logout</a>
+                                </>
+                            )
+                        }
+                        else {
+                            return (
+                                <>
+                                    <Link className="nav-link" to="/login">Login</Link>       
+                                    {/* <Link to="/login" className="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Login</Link> */}
+                                </>
+                            )
+                        }
+                    }
+                )()}
                 </li>
               </ul>
             </div>

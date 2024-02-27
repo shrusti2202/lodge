@@ -1,19 +1,12 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import React, { useState } from 'react'
 
 
-function Login() {
+function Admin_Login() {
   const redirect=useNavigate(); // redirect any routes
-  useEffect(()=>{
-    if(localStorage.getItem('userid'))
-    {
-        redirect('/');
-    }
-  },[]);
+
 
 
   const [formvalue, setFormvalue] = useState({
@@ -69,7 +62,6 @@ function Login() {
 
   return (
     <div>
-<Navbar/>
       <form action="" method="post" onSubmit={submithandel}>
   <div className="container">
     <label ><b>Email</b></label>
@@ -77,13 +69,12 @@ function Login() {
     <label ><b>Password</b></label>
     <input type="password" name="password" value={formvalue.password} onChange={getform} id="email" placeholder="Enter Password"  required />
     <button type="submit">Login</button>
-    <Link to="/Signup">If you not Registered then Register Here</Link>
+    <Link to="/admin_Signup">If you not Registered then Register Here</Link>
   </div>
  
 </form>
-<Footer/>
     </div>
   )
 }
 
-export default Login
+export default Admin_Login

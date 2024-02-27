@@ -48,7 +48,7 @@ function Manage_services() {
                                             return (
                                                 <tr>
                                                     <td>{value.id}</td>
-                                                    <td>{value.id}</td>
+                                                    <td>{value.cat_id}</td>
                                                     <td>{value.service_name}</td>
                                                     <td>{value.desc}</td>
                                                     <td>{value.price}</td>
