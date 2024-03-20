@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import axios from 'axios';import Navbar from '../Components/Navbar'
+import axios from 'axios';
+import Navbar from '../Components/Navbar'
 import { toast } from 'react-toastify';
 import Footer from '../Components/Footer'
 import { Link, useNavigate } from 'react-router-dom';
@@ -67,21 +68,23 @@ function Signup() {
     
       const submithandel = async (e) => {
         e.preventDefault(); // stop page reload 
+        if(validation()){
         const res = await axios.post(`http://localhost:3000/user`,formvalue);
         //console.log(res);
         if(res.status==201)
         {
           setFormvalue({...formvalue,id:"",name:"",email:"",password:"",contact:"",confrim_password:""});
-          toast.success('User Submited Success');
+          toast.success('Singup Success');
           return false;
         }
       }
+    }
       return (
         <>
-          <Navbar />
+          <Navbar titlt={"Singup"}/>
           <form   action="" method='post' onSubmit={submithandel} style={{ border: '1px solid #ccc' }}>
             <div className="container">
-              <h1>Sign Up</h1>
+              <h1>Sign Up For Services </h1>
               <p>Please fill in this form to create an account.</p>
               <hr />
               <label ><b>Name</b></label>

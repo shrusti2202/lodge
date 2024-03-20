@@ -1,8 +1,47 @@
 {
-  "Categories": [],
+  "Categories": [
+    {
+      "id": "1709056039022",
+      "cat_name": "Bracelet",
+      "cat_images": "https://img.freepik.com/free-photo/gold-necklace-with-word-love-it_1340-42879.jpg?size=626&ext=jpg&ga=GA1.2.394245931.1708071990&semt=sph"
+    },
+    {
+      "id": "1709056582506",
+      "cat_name": "Neckless ",
+      "cat_images": "https://img.freepik.com/premium-photo/gold-bangles-generated-by-ai_1059430-42364.jpg?size=626&ext=jpg&ga=GA1.1.394245931.1708071990&semt=ais"
+    }
+  ],
   "employee": [],
   "services": [],
-  "user": [],
+  "user": [
+    {
+      "id": "1710566317566",
+      "name": "patel",
+      "email": "patel@gmail.com",
+      "password": "123",
+      "contact": "65478932133",
+      "confrim_password": "",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-manual-engraving-890_890.jpg?w=1138&id=818136d6d6de87c15db3a1bdb93e48fc&fm=webp"
+    },
+    {
+      "id": "1710735098533",
+      "name": "patel shrusti",
+      "email": "shrusti@gmail.com",
+      "password": "123",
+      "contact": "9874563212",
+      "confrim_password": "",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-manual-engraving-890_890.jpg?w=1138&id=818136d6d6de87c15db3a1bdb93e48fc&fm=webp"
+    },
+    {
+      "id": "1710737420589",
+      "name": "patel",
+      "email": "patel@gmail.com",
+      "password": "123",
+      "contact": "1234567896",
+      "confrim_password": "",
+      "images": "https://wempe-media.com/media/image/wempe-jewelry-service-growing-diamonds-890_890.jpg?w=1138&id=cfac9a6c0c10dce07b1c8a4faa57ce7b&fm=webp"
+    }
+  ],
   "Contact": [],
   "feedback": []
 }

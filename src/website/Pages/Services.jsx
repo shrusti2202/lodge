@@ -2,8 +2,12 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 function Services() {
+
+    const redirect=useNavigate();
+
     const [data, setData] = useState([]);
 
     useEffect(() => {

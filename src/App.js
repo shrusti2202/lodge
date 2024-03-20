@@ -6,7 +6,6 @@ import About from "./website/Pages/About";
 import Jewellery from "./website/Pages/Jewellery";
 import Contact from "./website/Pages/Contact";
 import Services from "./website/Pages/Services";
-import Profile from "./website/Pages/Profile";
 import Login from "./website/Pages/Login";
 import Signup from "./website/Pages/Signup";
 
@@ -29,6 +28,7 @@ import Manage_user from "./admin/Pages/Manage_user";
 import Admin_Login from "./admin/Pages/Admin_Login";
 import Admin_Signup from "./admin/Pages/Admin_Signup";
 import PNF from "./website/Pages/PNF";
+import Profile from "./website/Pages/Profile";
 
 // import Add_contact from "./admin/Pages/Add_contact";
 
@@ -42,13 +42,10 @@ function App() {
         <Route path="/jewellery" element={<Jewellery />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/login" element={<Login />}></Route>
-        <Route path="/profile" element={<Profile />}></Route>
         <Route path="/services" element={<Services />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
+        <Route path="/profile" element={<Profile />}></Route>
         <Route path="/pnf" element={<PNF />}></Route>
-
-
-
 
 
 

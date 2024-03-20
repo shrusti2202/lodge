@@ -43,7 +43,10 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/contact">Contact us</Link>
-                  {(
+                </li>
+               
+                <li>
+                {(
                         () => {
                             //  Use  session
                             if (localStorage.getItem('userid')) {
@@ -53,11 +56,6 @@ function Navbar() {
                             }
                         }
                     )()}
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/profile">My Profile</Link>
-                </li>
-                <li className="nav-item">
                 {(
                     () => {
                         if (localStorage.getItem('userid')) {
@@ -70,14 +68,16 @@ function Navbar() {
                         else {
                             return (
                                 <>
-                                    <Link className="nav-link" to="/login">Login</Link>       
-                                    {/* <Link to="/login" className="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Login</Link> */}
+                                <Link className="nav-link" to="/login">Login us</Link>
                                 </>
                             )
                         }
                     }
                 )()}
+
                 </li>
+
+
               </ul>
             </div>
             <div className="quote_btn-container ">
